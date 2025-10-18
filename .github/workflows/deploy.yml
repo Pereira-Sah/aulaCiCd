@@ -34,11 +34,7 @@ jobs:
 
         with:
 
-          service-id: srv-d3ppgj8gjchc73apr5n0
+          service-id: ${{ secrets.RENDER_SERVICE_ID }}
 
-          #service-id: ${{ secrets.RENDER_SERVICE_ID }}
-
-          api-key: rnd_D8bFVwuLuF6oNowiL1JIKy7gx9YY
-
-          #api-key: ${{ secrets.RENDER_API_KEY }}
+          api-key: ${{ secrets.RENDER_API_KEY }}
  
